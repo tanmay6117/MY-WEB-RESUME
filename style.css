@@ -1,0 +1,144 @@
+/* ===== Reset & Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f9f9fb;
+}
+
+/* ===== Container ===== */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* ===== Header ===== */
+header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0078d7;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+  color: #0078d7;
+}
+
+/* ===== Hero ===== */
+.hero {
+  background: linear-gradient(135deg, #0078d7, #00b4d8);
+  color: #fff;
+  text-align: center;
+  padding: 5rem 2rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn.primary {
+  background: #fff;
+  color: #0078d7;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn.primary:hover {
+  background: #e6f0ff;
+}
+
+/* ===== Sections ===== */
+section {
+  padding: 4rem 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0078d7;
+}
+
+section p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* ===== Contact ===== */
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+#contact a {
+  color: #0078d7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
